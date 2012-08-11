@@ -1,0 +1,15 @@
+this is a copy of Oleh Yuschuk's PaperBack application to backup data into images. Documentation and windows binary available at: http://ollydbg.de/Paperbak/
+
+I'd like to get it working on GNU/Linux :)
+
+PaperBack is a free application that allows you to back up your precious files on the ordinary paper in the form of the oversized bitmaps.
+ If you have a good laser printer with the 600 dpi resolution, you can save up to 500,000 bytes of uncompressed data on the single A4/Letter sheet.
+ Integrated packer allows for much better data density - up to 3,000,000+ (three megabytes) of C code per page. 
+
+ Acknowledgements.
+
+PaperBack would be not possible without the Reed-Solomon error correction. The code is written by Phil Karn (C) 2002. Phil allows use of his code under the terms of GPL.
+
+AES encryption code is developed by Christophe Devine (C) 2001-2004. This code is also released under GPL.
+
+bzip2 compression engine is developed by Julian R. Seward (C) 1996-2005. See sources for details. To my best knowledge (IANAL), his license is compatible with GPL.
